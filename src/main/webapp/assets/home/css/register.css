@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F3F2EC; /* Màu nền của trang */
+}
+
+.registration-form {
+    padding: 50px 0; /* Khoảng cách trên và dưới */
+}
+
+.registration-form form {
+    background-color: #EDEBE4; /* Màu nền cho biểu mẫu */
+    max-width: 600px; /* Chiều rộng tối đa */
+    margin: auto; /* Căn giữa */
+    padding: 50px 70px; /* Padding cho biểu mẫu */
+    border-top-left-radius: 30px; /* Bo góc phía trên bên trái */
+    border-top-right-radius: 30px; /* Bo góc phía trên bên phải */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15); /* Đổ bóng cho biểu mẫu */
+}
+
+.registration-form .form-icon {
+    text-align: center; /* Căn giữa */
+    background-color: #C5A992; /* Màu nền cho biểu tượng */
+    border-radius: 50%; /* Bo tròn biểu tượng */
+    font-size: 40px; /* Kích thước chữ cho biểu tượng */
+    color: white; /* Màu chữ cho biểu tượng */
+    width: 100px; /* Chiều rộng */
+    height: 100px; /* Chiều cao */
+    margin: auto; /* Căn giữa */
+    margin-bottom: 50px; /* Khoảng cách phía dưới */
+    line-height: 100px; /* Căn giữa chữ trong biểu tượng */
+}
+
+.registration-form .item {
+    border-radius: 20px; /* Bo góc cho các trường nhập */
+    margin-bottom: 25px; /* Khoảng cách giữa các trường */
+    padding: 10px 20px; /* Padding cho các trường */
+}
+
+.registration-form .create-account {
+    border-radius: 30px; /* Bo góc cho nút */
+    padding: 10px 20px; /* Padding cho nút */
+    font-size: 18px; /* Kích thước chữ cho nút */
+    font-weight: bold; /* Đậm chữ */
+    background-color: #C5A992; /* Màu nền cho nút */
+    border: none; /* Bỏ viền cho nút */
+    color: white; /* Màu chữ cho nút */
+    margin-top: 20px; /* Khoảng cách trên */
+}
+/* Hiệu ứng hover cho nút */
+.registration-form .create-account:hover {
+    background-color: #94928B; /* Màu nền khi hover */
+}
+
+.registration-form .social-media {
+    max-width: 600px; /* Chiều rộng tối đa cho phần mạng xã hội */
+    background-color: #EDEBE4; /* Màu nền cho phần mạng xã hội */
+    margin: auto; /* Căn giữa */
+    padding: 35px 0; /* Padding cho phần mạng xã hội */
+    text-align: center; /* Căn giữa chữ */
+    border-bottom-left-radius: 30px; /* Bo góc dưới bên trái */
+    border-bottom-right-radius: 30px; /* Bo góc dưới bên phải */
+    color: #84757D; /* Màu chữ cho phần mạng xã hội */
+    border-top: 1px solid #C5A992; /* Viền trên cho phần mạng xã hội */
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15); /* Đổ bóng cho phần mạng xã hội */
+}
+
+.registration-form .social-icons {
+    margin-top: 30px; /* Khoảng cách trên */
+    margin-bottom: 16px; /* Khoảng cách dưới */
+}
+
+.registration-form .social-icons a {
+    font-size: 23px; /* Kích thước chữ cho biểu tượng mạng xã hội */
+    margin: 0 3px; /* Khoảng cách giữa các biểu tượng */
+    color: #C5A992; /* Màu chữ cho biểu tượng mạng xã hội */
+    border: 1px solid; /* Viền cho biểu tượng mạng xã hội */
+    border-radius: 50%; /* Bo tròn biểu tượng */
+    width: 45px; /* Chiều rộng */
+    display: inline-block; /* Hiển thị dưới dạng inline-block */
+    height: 45px; /* Chiều cao */
+    text-align: center; /* Căn giữa */
+    background-color: #fff; /* Màu nền cho biểu tượng mạng xã hội */
+    line-height: 45px; /* Căn giữa chữ trong biểu tượng */
+}
+
+.registration-form .social-icons a:hover {
+    text-decoration: none; /* Bỏ gạch chân khi hover */
+    /*opacity: 0.6; /* Độ mờ khi hover */
+    background-color: #EDEBE4; /* Màu nền khi hover */
+}
+
+@media (max-width: 576px) {
+    .registration-form form {
+        padding: 50px 20px; /* Padding cho di động */
+    }
+
+    .registration-form .form-icon {
+        width: 70px; /* Kích thước biểu tượng nhỏ hơn cho di động */
+        height: 70px; /* Kích thước biểu tượng nhỏ hơn cho di động */
+        font-size: 30px; /* Kích thước chữ nhỏ hơn cho di động */
+        line-height: 70px; /* Căn giữa cho biểu tượng */
+    }
+}

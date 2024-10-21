@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* login.css */
+
+/* Cấu trúc cho form đăng nhập */
+.registration-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #EDEBE4;
+}
+
+/* Các phần tử của biểu mẫu */
+.form-icon {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-icon .icon {
+    font-size: 50px;
+    color: #C5A992;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Thông báo lỗi */
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: none; /* Ẩn mặc định */
+}
+
+/* Nút đăng nhập */
+.create-account {
+    background-color: #C5A992;
+    color: white;
+}
+
+.create-account:hover {
+    background-color: #94928B;
+}
+
+/* Hiệu ứng khi hover */
+.create-account:focus {
+    outline: none; /* Bỏ viền khi focus */
+}
+
+/* Bố cục cho các biểu tượng mạng xã hội */
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #C5A992;
+}
+
+.social-icons a:hover {
+    color: #94928B;
+}
+.error-message {
+    display: none; /* Ẩn theo mặc định */
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px; /* Tạo khoảng cách cho đẹp */
+}
+
